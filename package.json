@@ -1,0 +1,21 @@
+{
+  "name": "Brightevente2e",
+  "version": "1.0.0",
+  "description": "Test automation for bright events automation",
+  "main": "index.js",
+  "author": "betsy",
+  "license": "",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha Tests/Login/login.js --timeout 20000"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chromedriver": "^74.0.0",
+    "dotenv": "^8.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
